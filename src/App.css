@@ -21,30 +21,28 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 1; /* Asegura que el contenido esté por encima de la imagen de fondo */
+  z-index: 1; 
 }
 
 .navbar-logo {
-  width: 60px; /* Ajusta el tamaño del logo según lo necesites */
+  width: 60px; 
   height: auto;
 
-  margin-right: 20px; /* Ajusta el espacio entre el logo y el texto según lo desees */
+  margin-right: 20px; 
 }
 
 .navbar-title {
-  /* display: flex; */
   align-items: center;
   color: white;
   text-align: center;
-  font-size: 24px; /* Ajusta el tamaño del texto según lo desees */
+  font-size: 24px; 
   width: 100%;
 }
 
 .red {
-  color: red; /* Cambia el color de la palabra "Red" según lo desees */
+  color: red;
 }
 
-/* Animación del título */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -55,18 +53,18 @@
 }
 
 .navbar-title span {
-  animation: fadeIn 2s ease; /* Ajusta la duración y la suavidad de la animación según lo desees */
+  animation: fadeIn 2s ease;
   animation-fill-mode: forwards;
   opacity: 0;
-  animation-delay: 0.5s; /* Ajusta el retraso de la animación según lo desees */
+  animation-delay: 0.5s;
 }
 
 .title-container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra horizontalmente */
-  text-align: center; /* Centra el texto */
+  align-items: center; 
+  text-align: center; 
   margin: 0;
   padding: 0;
 }
